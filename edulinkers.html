@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edulinkers - Career Guidance Platform</title>
+    <link rel="stylesheet" href="edulinkers.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1 class="logo-text">Edulinkers</h1>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#assessment" class="nav-link">Career Assessment</a>
+                    <a href="#careers" class="nav-link">Explore Careers</a>
+                    <a href="#resources" class="nav-link">Resources</a>
+                    <a href="#about" class="nav-link">About</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="header-cta">
+                    <button class="btn-primary">Get Started</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="menu-icon" id="menuIcon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="4" x2="20" y1="6" y2="6"/>
+                            <line x1="4" x2="20" y1="12" y2="12"/>
+                            <line x1="4" x2="20" y1="18" y2="18"/>
+                        </svg>
+                    </span>
+                    <span class="close-icon hidden" id="closeIcon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m18 6-12 12"/>
+                            <path d="m6 6 12 12"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav hidden" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#assessment" class="mobile-nav-link">Career Assessment</a>
+                    <a href="#careers" class="mobile-nav-link">Explore Careers</a>
+                    <a href="#resources" class="mobile-nav-link">Resources</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <div class="mobile-nav-cta">
+                        <button class="btn-primary full-width">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-grid">
+                    <!-- Text Content -->
+                    <div class="hero-text">
+                        <div class="hero-content">
+                            <h1 class="hero-title">
+                                Your Journey to the 
+                                <span class="hero-highlight">Perfect Career</span> 
+                                Starts Here
+                            </h1>
+                            <p class="hero-description">
+                                Discover your potential, explore career paths, and make informed decisions about your future with our comprehensive career guidance platform.
+                            </p>
+                        </div>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-actions">
+                            <button class="btn-primary btn-lg">
+                                Take Career Assessment
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </button>
+                            <button class="btn-outline btn-lg">Explore Careers</button>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <circle cx="12" cy="12" r="6"/>
+                                        <circle cx="12" cy="12" r="2"/>
+                                    </svg>
+                                </div>
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Career Paths</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="m22 21-3-3"/>
+                                    </svg>
+                                </div>
+                                <div class="stat-number">10K+</div>
+                                <div class="stat-label">Students Guided</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                    </svg>
+                                </div>
+                                <div class="stat-number">200+</div>
+                                <div class="stat-label">Resources</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image -->
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-container">
+                            <img src="https://images.unsplash.com/photo-1738750908048-14200459c3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXJlZXIlMjBndWlkYW5jZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTYxMjU0NTN8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Career guidance professional" 
+                                 class="hero-image" />
+                        </div>
+                        <!-- Decorative elements -->
+                        <div class="hero-decoration hero-decoration-1"></div>
+                        <div class="hero-decoration hero-decoration-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Assessment Section -->
+        <section id="assessment" class="assessment-section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Career Assessment</h2>
+                    <p class="section-description">
+                        Answer a few questions to discover careers that match your interests and skills
+                    </p>
+                </div>
+
+                <!-- Assessment Features -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">5 Minutes</h3>
+                        <p class="feature-description">Quick and easy</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="m22 21-3-3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Personalized</h3>
+                        <p class="feature-description">Tailored to you</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Accurate</h3>
+                        <p class="feature-description">Research-based</p>
+                    </div>
+                </div>
+
+                <!-- Assessment Card -->
+                <div class="assessment-card" id="assessmentCard">
+                    <div class="card-header">
+                        <div class="progress-info">
+                            <span class="question-counter" id="questionCounter">Question 1 of 3</span>
+                            <span class="progress-percentage" id="progressPercentage">33% Complete</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+                        </div>
+                        <h3 class="question-title" id="questionTitle">What type of work environment do you prefer?</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="radio-group" id="radioGroup">
+                            <!-- Radio options will be populated by JavaScript -->
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-primary" id="nextBtn" disabled>
+                                <span id="nextBtnText">Next</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9,18 15,12 9,6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Card -->
+                <div class="results-card hidden" id="resultsCard">
+                    <div class="results-content">
+                        <div class="success-icon">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                        </div>
+                        <h2 class="results-title">Assessment Complete!</h2>
+                        <p class="results-description">
+                            Based on your responses, we've identified potential career paths that align with your interests and preferences.
+                        </p>
+                        <div class="career-suggestions">
+                            <div class="career-card technology-card">
+                                <h3 class="career-title">Technology</h3>
+                                <p class="career-description">Software Development, Data Analysis</p>
+                            </div>
+                            <div class="career-card healthcare-card">
+                                <h3 class="career-title">Healthcare</h3>
+                                <p class="career-description">Nursing, Medical Research</p>
+                            </div>
+                            <div class="career-card creative-card">
+                                <h3 class="career-title">Creative Arts</h3>
+                                <p class="career-description">Graphic Design, Marketing</p>
+                            </div>
+                        </div>
+                        <div class="results-actions">
+                            <button class="btn-outline" id="retakeBtn">Retake Assessment</button>
+                            <button class="btn-primary" id="exploreBtn">
+                                <span>Explore These Careers</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9,18 15,12 9,6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section id="careers" class="careers-section">
+            <div class="careers-container">
+                <div class="section-header">
+                    <h2 class="section-title">Explore Career Fields</h2>
+                    <p class="section-description">
+                        Discover diverse career opportunities across various industries. Each field offers unique paths for growth and impact.
+                    </p>
+                </div>
+
+                <div class="careers-grid">
+                    <!-- Technology Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1591439657848-9f4b9ce436b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tcHV0ZXIlMjBjb2Rpbmd8ZW58MXx8fHwxNzU2MDU5MDg1fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Technology" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="16,18 22,12 16,6"/>
+                                        <polyline points="8,6 2,12 8,18"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Technology</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Shape the future with cutting-edge technology solutions</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+22%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge high-demand">High Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$75K - $150K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Software Developer</span>
+                                    <span class="career-badge">Data Scientist</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <!-- Healthcare Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1573913055263-972958166ece?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3R1ZHlpbmclMjBncmFkdWF0aW9ufGVufDF8fHx8MTc1NjEyNTQ1M3ww&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Healthcare" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Healthcare</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Make a difference in people's lives through medical care</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+18%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge very-high-demand">Very High Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$50K - $120K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Registered Nurse</span>
+                                    <span class="career-badge">Physical Therapist</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <!-- Business Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1709715357520-5e1047a2b691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW0lMjBtZWV0aW5nfGVufDF8fHx8MTc1NjEwMzQ1MXww&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Business" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                        <line x1="8" y1="21" x2="16" y2="21"/>
+                                        <line x1="12" y1="17" x2="12" y2="21"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Business</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Drive growth and innovation in the corporate world</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+15%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge high-demand">High Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$55K - $130K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Business Analyst</span>
+                                    <span class="career-badge">Project Manager</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <!-- Creative Arts Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1738750908048-14200459c3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXJlZXIlMjBndWlkYW5jZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTYxMjU0NTN8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Creative Arts" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Creative Arts</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Express creativity while building meaningful brands</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+13%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge medium-demand">Medium Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$40K - $95K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Graphic Designer</span>
+                                    <span class="career-badge">Content Creator</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <!-- Engineering Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1573913055263-972958166ece?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3R1ZHlpbmclMjBncmFkdWF0aW9ufGVufDF8fHx8MTc1NjEyNTQ1M3ww&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Engineering" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/>
+                                        <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/>
+                                        <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/>
+                                        <path d="M10 6h4"/>
+                                        <path d="M10 10h4"/>
+                                        <path d="M10 14h4"/>
+                                        <path d="M10 18h4"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Engineering</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Build the infrastructure and systems that power our world</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+16%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge high-demand">High Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$65K - $140K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Civil Engineer</span>
+                                    <span class="career-badge">Mechanical Engineer</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <!-- Research & Science Card -->
+                    <div class="career-field-card">
+                        <div class="career-card-header">
+                            <div class="career-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1591439657848-9f4b9ce436b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tcHV0ZXIlMjBjb2Rpbmd8ZW58MXx8fHwxNzU2MDU5MDg1fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                     alt="Research & Science" class="career-image" />
+                                <div class="career-icon-overlay">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
+                                        <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="career-title-row">
+                                <h3 class="career-field-title">Research & Science</h3>
+                                <svg class="career-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="career-card-content">
+                            <p class="career-field-description">Advance human knowledge through scientific discovery</p>
+                            
+                            <div class="career-metrics">
+                                <div class="metric-item">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                    </svg>
+                                    <span class="metric-value">+12%</span>
+                                    <span class="metric-label">growth</span>
+                                </div>
+                                <div class="badge medium-demand">Medium Demand</div>
+                            </div>
+                            
+                            <div class="salary-info">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="2" x2="12" y2="22"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <span>$55K - $125K</span>
+                            </div>
+                            
+                            <div class="popular-careers">
+                                <h4 class="careers-subtitle">Popular Careers:</h4>
+                                <div class="career-badges">
+                                    <span class="career-badge">Research Scientist</span>
+                                    <span class="career-badge">Lab Technician</span>
+                                    <span class="career-badge">+2 more</span>
+                                </div>
+                            </div>
+                            
+                            <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-footer">
+                    <button class="btn-primary btn-lg">
+                        View All Career Fields
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="resources-section">
+            <div class="resources-container">
+                <div class="section-header">
+                    <h2 class="section-title">Career Resources</h2>
+                    <p class="section-description">
+                        Access expert-curated resources to accelerate your career development journey
+                    </p>
+                </div>
+
+                <div class="resources-layout">
+                    <!-- Main Resources Grid -->
+                    <div class="resources-main">
+                        <div class="resources-grid">
+                            <!-- Resource Card 1 -->
+                            <div class="resource-card featured">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge primary">Guide</span>
+                                            <span class="resource-featured-badge">Featured</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Complete Career Planning Handbook</h3>
+                                <p class="resource-description">A comprehensive guide to planning your career journey from student to professional.</p>
+                                <div class="resource-meta">
+                                    <span>PDF</span>
+                                    <span>45 min read</span>
+                                    <span>Beginner</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>15.2K downloads</span>
+                                    </div>
+                                    <button class="resource-btn primary">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Get
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Resource Card 2 -->
+                            <div class="resource-card">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <polygon points="23,7 16,12 23,17 23,7"/>
+                                                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge secondary">Video Course</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Interview Skills Masterclass</h3>
+                                <p class="resource-description">Master the art of interviewing with practical tips and real examples.</p>
+                                <div class="resource-meta">
+                                    <span>Video</span>
+                                    <span>2.5 hours</span>
+                                    <span>Intermediate</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>8.7K downloads</span>
+                                    </div>
+                                    <button class="resource-btn outline">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polygon points="5,3 19,12 5,21 5,3"/>
+                                        </svg>
+                                        Watch
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Resource Card 3 -->
+                            <div class="resource-card featured">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                                    <polyline points="14,2 14,8 20,8"/>
+                                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                                    <polyline points="10,9 9,9 8,9"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge primary">Template</span>
+                                            <span class="resource-featured-badge">Featured</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Professional Resume Templates</h3>
+                                <p class="resource-description">Industry-specific resume templates that get you noticed by recruiters.</p>
+                                <div class="resource-meta">
+                                    <span>DOCX</span>
+                                    <span>Template</span>
+                                    <span>All Levels</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>22.1K downloads</span>
+                                    </div>
+                                    <button class="resource-btn primary">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Get
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Resource Card 4 -->
+                            <div class="resource-card">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                                    <circle cx="9" cy="7" r="4"/>
+                                                    <path d="m22 21-3-3"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge secondary">Workshop</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Networking for Career Success</h3>
+                                <p class="resource-description">Learn how to build meaningful professional relationships.</p>
+                                <div class="resource-meta">
+                                    <span>Live</span>
+                                    <span>90 minutes</span>
+                                    <span>Intermediate</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>3.4K downloads</span>
+                                    </div>
+                                    <button class="resource-btn outline">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Get
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Resource Card 5 -->
+                            <div class="resource-card">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                                    <line x1="16" y1="2" x2="16" y2="6"/>
+                                                    <line x1="8" y1="2" x2="8" y2="6"/>
+                                                    <line x1="3" y1="10" x2="21" y2="10"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge secondary">Webinar</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Future of Work: Emerging Careers</h3>
+                                <p class="resource-description">Explore careers that didn't exist 10 years ago and future opportunities.</p>
+                                <div class="resource-meta">
+                                    <span>Online</span>
+                                    <span>60 minutes</span>
+                                    <span>All Levels</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>12.8K downloads</span>
+                                    </div>
+                                    <button class="resource-btn outline">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polygon points="5,3 19,12 5,21 5,3"/>
+                                        </svg>
+                                        Watch
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Resource Card 6 -->
+                            <div class="resource-card featured">
+                                <div class="resource-header">
+                                    <div class="resource-info">
+                                        <div class="resource-icon-wrapper">
+                                            <div class="resource-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="resource-badges">
+                                            <span class="resource-type-badge primary">Toolkit</span>
+                                            <span class="resource-featured-badge">Featured</span>
+                                        </div>
+                                    </div>
+                                    <svg class="external-link" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 7h10v10"/>
+                                        <path d="M7 17L17 7"/>
+                                    </svg>
+                                </div>
+                                <h3 class="resource-title">Career Change Transition Kit</h3>
+                                <p class="resource-description">Everything you need to successfully transition to a new career field.</p>
+                                <div class="resource-meta">
+                                    <span>Bundle</span>
+                                    <span>Self-paced</span>
+                                    <span>Advanced</span>
+                                </div>
+                                <div class="resource-footer">
+                                    <div class="download-count">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        <span>6.9K downloads</span>
+                                    </div>
+                                    <button class="resource-btn primary">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Get
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="resources-sidebar">
+                        <!-- Upcoming Events -->
+                        <div class="sidebar-card">
+                            <div class="sidebar-header">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="16" y1="2" x2="16" y2="6"/>
+                                    <line x1="8" y1="2" x2="8" y2="6"/>
+                                    <line x1="3" y1="10" x2="21" y2="10"/>
+                                </svg>
+                                <h3>Upcoming Events</h3>
+                            </div>
+                            <div class="events-list">
+                                <div class="event-item">
+                                    <h4 class="event-title">Tech Career Fair 2025</h4>
+                                    <div class="event-details">
+                                        <div>Jan 30 • 2:00 PM EST</div>
+                                        <div class="event-attendees">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                                <circle cx="9" cy="7" r="4"/>
+                                                <path d="m22 21-3-3"/>
+                                            </svg>
+                                            500 registered
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event-item">
+                                    <h4 class="event-title">Resume Review Workshop</h4>
+                                    <div class="event-details">
+                                        <div>Feb 5 • 6:00 PM EST</div>
+                                        <div class="event-attendees">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                                <circle cx="9" cy="7" r="4"/>
+                                                <path d="m22 21-3-3"/>
+                                            </svg>
+                                            150 registered
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event-item">
+                                    <h4 class="event-title">Healthcare Careers Panel</h4>
+                                    <div class="event-details">
+                                        <div>Feb 12 • 1:00 PM EST</div>
+                                        <div class="event-attendees">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                                <circle cx="9" cy="7" r="4"/>
+                                                <path d="m22 21-3-3"/>
+                                            </svg>
+                                            200 registered
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn-outline full-width">View All Events</button>
+                        </div>
+
+                        <!-- Quick Actions -->
+                        <div class="sidebar-card cta-card">
+                            <h3 class="cta-title">Need Personalized Help?</h3>
+                            <p class="cta-description">
+                                Schedule a one-on-one career counseling session with our experts.
+                            </p>
+                            <div class="cta-actions">
+                                <button class="btn-primary full-width">Book a Session</button>
+                                <button class="btn-outline full-width">Join Study Group</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-section">
+                        <h3 class="footer-brand">Edulinkers</h3>
+                        <p class="footer-description">
+                            Empowering students and professionals to make informed career decisions through comprehensive guidance and resources.
+                        </p>
+                        <div class="social-links">
+                            <button class="social-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                            </button>
+                            <button class="social-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                                </svg>
+                            </button>
+                            <button class="social-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </button>
+                            <button class="social-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                    <rect x="2" y="9" width="4" height="12"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#assessment" class="footer-link">Career Assessment</a></li>
+                            <li><a href="#careers" class="footer-link">Explore Careers</a></li>
+                            <li><a href="#resources" class="footer-link">Resources</a></li>
+                            <li><a href="#" class="footer-link">Success Stories</a></li>
+                            <li><a href="#" class="footer-link">Career Counseling</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                            <li><a href="#" class="footer-link">Contact Us</a></li>
+                            <li><a href="#" class="footer-link">FAQs</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Stay Updated</h4>
+                        <p class="newsletter-description">
+                            Get the latest career insights and opportunities delivered to your inbox.
+                        </p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Your email" class="newsletter-input" />
+                            <button class="newsletter-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22,2 15,22 11,13 2,9 22,2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-separator"></div>
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    <span>support@edulinkers.com</span>
+                </div>
+                <div class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>New York, NY</span>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-separator"></div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Edulinkers. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Privacy</a>
+                    <a href="#" class="legal-link">Terms</a>
+                    <a href="#" class="legal-link">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="edulinkers.js"></script>
+</body>
+</html>
